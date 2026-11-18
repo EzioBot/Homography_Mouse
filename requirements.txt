@@ -1,0 +1,7 @@
+opencv-python>=4.8
+numpy>=1.24
+mediapipe>=0.10.9
+mss>=9.0
+pynput>=1.7.6
+# Active-window targeting only works on Windows; other OSes fall back to the primary monitor.
+pygetwindow>=0.0.9; sys_platform == "win32"
